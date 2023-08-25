@@ -29,10 +29,10 @@ public class ArrayQuiz3 {
 		System.out.println("±¸ÀÔÇÒ Ä¿ÇÇ ¼ö > ");
 		int coffee = scan.nextInt();
 		
-		if (coffee<10)
+		if (coffee<=10)
 			System.out.println("ÃÑ °¡°Ý : "+(2000*coffee));
 		else
-			System.out.println("ÃÑ °¡°Ý : "+(1500*(coffee-9)+18000));
+			System.out.println("ÃÑ °¡°Ý : "+(1500*(coffee-10)+20000));
 		
 		System.out.println();
 		
